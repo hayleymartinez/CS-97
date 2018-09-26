@@ -1,0 +1,21 @@
+# When entered into the Picobot playground,
+# this code causes the box to traverse every
+# cell in the playground.
+#
+# Link: http://web.cs.ucla.edu/~todd/picobot.html
+
+0 xxxx -> E 0
+0 xExx -> N 0
+0 NExx -> W 0
+0 Nxxx -> W 0
+0 NxWx -> S 0
+0 xxWx -> S 0
+0 xxWS -> E 0
+0 xxxS -> E 0
+0 xExS -> N 1
+1 xExx -> W 1
+1 xxxx -> W 1
+1 xxWx -> N 2
+2 xxWx -> E 2
+2 xxxx -> E 2
+2 xExx -> N 1
